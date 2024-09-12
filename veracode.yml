@@ -1,11 +1,11 @@
 actions:
   ruby:
     version: 3.3.3
-    bundle: 2.5.16
+    bundle: 2.4.6
   veracode_static_scan:
     build:
       runs_on:
-      packager_image: veracode/scm-packaging:3.0.0
+      packager_image:
       #predependency_command: |
         
   veracode_sca_scan:
